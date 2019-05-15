@@ -62,7 +62,7 @@ $(function () {
       return
     } else {
       if (!FileReader) {
-        alert('您的游览器不支持加载图片')；
+        alert('您的游览器不支持加载图片');
         return
       }
       var reader = new FileReader();
