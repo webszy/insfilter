@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+body,
+div,
+p,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+table,
+tr,
+td,
+th,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+textarea,
+fieldset,
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 26.67vw;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.wrap {
+  width: 96%;
+  height: 100%;
+  margin: 0 auto;
+  padding-top: 100px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.filters {
+  width: 60%;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-top: .2rem;
+}
+
+.filters p {
+  float: left;
+  font-size: .14rem;
+  margin: 0;
+}
+
+.filters select {
+  display: block;
+  float: left;
+  margin: 0 20px;
+  width: 1rem;
+}
+
+.img {
+  width: 90%;
+  height: 60%;
+  margin: 0 auto;
+  border: 1px solid salmon;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.img input {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  opacity: 0;
+  left: 0;
+  top: 0;
+}
