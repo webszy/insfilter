@@ -52,19 +52,21 @@ body {
   margin: 0 auto;
   overflow: hidden;
   padding-top: .2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .filters p {
-  float: left;
   font-size: .14rem;
   margin: 0;
 }
 
 .filters select {
   display: block;
-  float: left;
   margin: 0 20px;
   width: 1rem;
+  font-size: .14rem;
 }
 
 .img {
